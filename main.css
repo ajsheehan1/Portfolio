@@ -1,0 +1,205 @@
+
+
+  body {
+      background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.q_kt0BZNk_igRakyWXPG3AHaCt%26pid%3DApi&f=1');
+    -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+     text-align: center;
+     background-attachment: fixed;
+    
+  }
+
+  .about {
+    
+    background-color:rgb(230, 235, 236);
+    opacity: 0.9;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 2px;
+  
+    
+}
+
+
+.display-head {
+    
+    font-size: 2.1em;
+    font-family: 'Antic Slab', sans-serif;
+    padding-top: 20px;
+    border-radius: 75%;
+    padding: 25px;
+    
+    
+}
+
+.mypicture{
+  opacity: none;
+  border-radius: 50%;
+  width: 90%;
+  height: 90%;
+  padding-top: 20px;
+  float: left;
+}
+
+
+/*NavBar*/
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin: 0;
+}
+nav li a, nav li a:visited {
+  text-decoration: none;
+  color: rgb(52, 131, 158);
+  padding: 0.3em 0.6em;
+}
+nav li a:hover {
+  color: rgb(52, 131, 158);;
+  background-color: lightblue;
+}
+
+/* JumboTron */
+.jumbotron {
+  opacity: 0.9;
+}
+
+/*Project*/
+#project {
+  background-color:rgb(230, 235, 236);
+  opacity: 0.9;
+  width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    padding: 25px;
+}
+  
+
+
+/* Project-> Carousel*/
+.carousel-item {
+  height: 300px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-item img {
+    height: 100%;
+    width: 100%;
+    object-fit: scale-down;
+    
+}
+/* end */
+
+  header { 
+      color: white;
+      font-size:  50px;
+      font-family: Impact, Charcoal, sans-serif;
+      
+      
+      position: fixed;
+      top: 250px;
+      left: 680px;
+  }
+
+  .card1 {
+      
+    Position: relative; 
+    top: 400px;
+    left: 500px;
+    
+    
+
+  }
+  
+  .first {
+    color: black;
+    background-color:rgb(207, 207, 207);
+    opacity: 0.8;
+    
+  }
+
+
+  
+  
+/*Footer*/
+footer{
+  color: whitesmoke;
+  padding: 10px;
+  bottom: -10px;
+  left: 0;
+  width: 100%; 
+  text-align: center;   
+}
+footer ul#menuFooter {
+  display: inline-block;
+  list-style: none;
+  margin: 0 0 0 0.6em;
+  padding: 0;
+}
+footer ul li {
+  display: inline-block;
+  padding: 0 0.7em 0 0;
+  margin: 0;
+}
+footer ul li::before {
+  content: "| ";
+  padding-right: 0.7em;
+}
+footer a, footer a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+  #contact-form { 
+    margin: auto;
+    margin-top: 100px;
+    width: 25vw;
+    background-color: white;
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border-radius: .4em;
+    box-shadow: 2px 2px 16px gray;
+
+  }
+
+  #contact-form input {
+    width: 90%;
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  #contact-form h3 {
+    color: black;
+    font-size: 18pt;
+   
+  }
+
+  input[type=submit] {
+    background-color: #3b5998;
+    color: white;
+    font-weight: bold;
+    padding:5px 15px;  
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
