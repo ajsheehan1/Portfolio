@@ -21,20 +21,8 @@
     margin-bottom: 30px;
     border-radius: 2px;
   
-    
-}
+  }
 
-
-.display-head {
-    
-    font-size: 2.1em;
-    font-family: 'Antic Slab', sans-serif;
-    padding-top: 20px;
-    border-radius: 75%;
-    padding: 25px;
-    
-    
-}
 
 .mypicture{
   opacity: none;
@@ -112,15 +100,6 @@ nav li a:hover {
       left: 680px;
   }
 
-  .card1 {
-      
-    Position: relative; 
-    top: 400px;
-    left: 500px;
-    
-    
-
-  }
   
   .first {
     color: black;
